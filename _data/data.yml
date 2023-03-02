@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Maria McGlade Segovia
 
-    tagline: Digital Marketing and Data Analytics @ H-FARM
+    tagline: Digital Marketing & Data Analytics
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     pdf_version_en: "curriculum_maria_english.pdf"
@@ -37,10 +37,10 @@ sidebar:
         level: Native proficiency
         
       - idiom: Italia
-        level: Full professional proficiency [C1]
+        level: C1, Full proficiency
         
       - idiom: French
-        level: Professional proficiency [B2]
+        level: B2, Professional proficiency
         
     interests:
       - item: Choir member
@@ -73,7 +73,7 @@ education:
       university: Edinburgh Napier University, Edinburgh
       time: 2017 - 2022
       details:
-        - text: Created effective marketing campaigns and business plans that increased sales through strategy & positioning
+        - text: Created effective marketing campaigns and business plans that increased sales
         - text: Discovered passion for sustainable branding & strategies
 
     - degree: Social Sciences Baccalaureate
@@ -91,7 +91,7 @@ experiences:
       time: 2022 - today
       company: Montpeliers Ltd. (Edinburgh)
       details:
-        - text: Designed & managed social media campaigns, improving customer engagement through targeted ad-hoc initiatives.
+        - text: Designed & managed social media campaigns, improving engagement through targeted initiatives
         - text: Expanded communication skills such as negotiation, up-selling & objection management
 
     - role: English Teacher
@@ -109,7 +109,7 @@ certifications:
 
       - title: CAD and Digital Manufacturing Specialization (Coursera)
         link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
-        tagline: "Online specialization about product innovation and digital manufacturing throguh Autodesk® Fusion 360™."
+        tagline: "Online specialization about product innovation and digital manufacturing throguh Autodesk Fusion 360™."
 
 skills:
     title: Computer Skills
@@ -117,22 +117,22 @@ skills:
     toolset:
 
       - name: Microsoft Office
-        level: 90%
+        level: 92%
 
       - name: Adobe CC
-        level: 55%
+        level: 60%
 
       - name: Python 
-        level: 45%
+        level: 50%
 
       - name: Autodesk Fusion
-        level: 30%
+        level: 35%
 
       - name: Wordpress
-        level: 65%
+        level: 67%
 
       - name: Google Analytics
-        level: 43%
+        level: 53%
 
         
 

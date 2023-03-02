@@ -10,7 +10,7 @@
     {% for interest in interests %}
 
       {% if interest.detail %}
-      <li><div>{{ interest.item }}<br><span style="font-size:11px; ">{{ interest.detail }}</span></div></li>
+      <li><div>{{ interest.item }}<br><span class="lang-desc">{{ interest.detail }}</span></div></li>
       {% else %}
       <li>{{ interest.item }}</li>
       {% endif %}

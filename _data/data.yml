@@ -3,138 +3,139 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Maria McGlade Segovia
+  # Profile information
+  name: Maria McGlade Segovia
 
-    tagline: Digital Marketing & Data Analytics
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Product Marketing Specialist
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    pdf_version_en: "curriculum_maria_english.pdf"
-    pdf_version_it: "curriculum_maria_italian.pdf"
+  pdf_version_en: "curriculum_maria_english.pdf"
 
-    # Sidebar links
-    email: mariamcglade@gmail.com
-    phone: (+34) 618 821 295
-    website: #do not add http://
-    linkedin: maria-mcglade
-    github: miamcgs
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: # with the '@' in front
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: mariamcglade@gmail.com
+  phone: (+34) 618 821 295
+  website: #do not add http://
+  linkedin: maria-mcglade
+  github: miamcgs
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: # with the '@' in front
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: Spanish
-        level: Native proficiency
+  languages:
+    - idiom: Spanish
+      level: Native proficiency
 
-      - idiom: English
-        level: Native proficiency
-        
-      - idiom: Italian
-        level: C1, Full proficiency
-        
-      - idiom: French
-        level: B2, Professional proficiency
-        
-    interests:
-      - item: Choir member
-        detail: San Estanislao di Kostka Choir
-        
-      - item: Animal shelter volunteer
-        detail: Villotta dog & cat shelter
+    - idiom: English
+      level: Native proficiency
 
-      - item: Plantastic founder (NGO)
-        detail: Plantastic Impact OdV
+    - idiom: Italian
+      level: C2, Full proficiency
 
-      - item: Course representative
-        detail: MSc DMDA (H-FARM)
+    - idiom: French
+      level: B2, Professional proficiency
+
+  interests:
+    - item: Choir member
+      detail: San Estanislao di Kostka Choir
+
+    - item: Animal shelter volunteer
+      detail: Villotta dog & cat shelter
+
+    - item: Plantastic founder (NGO)
+      detail: Plantastic Impact OdV
+
+    - item: Course representative
+      detail: MSc DMDA (H-FARM)
 
 career-profile:
-    title: About me
-    summary: |
-      I am a Marketing & Business graduate with a passion for sustainability and data analytics. Multi-lingual and from a multi-cultural background, I quickly adapt and integrate into different teams. I seek a dynamic working environment, where I can learn from people around me.
-      
+  title: About me
+  summary: |
+    Data-savvy marketing professional with a proven track record in product launches and data analysis. Fluent in four languages, driven by curiosity and a passion for turning ideas into campaigns that engage, inspire, and deliver results.
+
 education:
-    - degree: Master of Science, Digital Marketing & Data Analytics
-      university: H-FARM College & University of Chichester, Venice
-      time: 2022 - 2023
-      details:
-        - text: Expanded knowledge of big data analytics and visualization
-        - text: Nurtured curiosity for UX and product management
-        - text: Participated in challenges with De'Longhi and Juventus
+  - degree: Master of Science, Digital Marketing & Data Analytics
+    university: H-FARM College & University of Chichester, Venice
+    time: Sep 2022 - Nov 2023
+    details:
+      - text: Participated in challenges and hackathons with De'Longhi & Juventus
+      - text: Nurtured curiosity for UX & data
 
-    - degree: Bachelor of Arts, Business Administration with Marketing
-      university: Edinburgh Napier University, Edinburgh
-      time: 2017 - 2022
-      details:
-        - text: Created effective marketing campaigns and business plans that increased sales
-        - text: Discovered passion for sustainable branding & strategies
+  - degree: Bachelor of Arts, Business Administration with Marketing
+    university: Edinburgh Napier University, Edinburgh
+    time: Sep 2017 - Oct 2022
+    details:
+      - text: Created effective marketing campaigns and business plans that increased sales
+      - text: Discovered passion for sustainable branding & strategies
 
-    - degree: Social Sciences Baccalaureate
-      university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola), Malaga
-      time: 2014 - 2016
+  - degree: Social Sciences Baccalaureate
+    university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola), Malaga
+    time: 2014 - 2016
 
 experiences:
-    - role: Librarian
-      time: 2022 - today
-      company: H-ouse at H-FARM (Venice)
-      details:
-        - text: Supervised students in clubs and extra-curricular activities
+  - role: Product Marketing Communications Specialist
+    time: Nov 2023 - Today
+    company: Elekta (Healthtech), London, UK
+    details:
+      - text: Led the global launch of new software campaigns, increasing qualified leads by 30%
+      - text: Monitored competitor and market activity and refined messaging accordingly, leading to a 15% uplift in campaign engagement
+      - text: Developed targeted content and materials that boosted customer engagement metrics by 20%
 
-    - role: Bartender & Social Media Manager
-      time: 2022 - today
-      company: Montpeliers Ltd. (Edinburgh)
-      details:
-        - text: Designed & managed social media campaigns, improving engagement through targeted initiatives
-        - text: Expanded communication skills such as negotiation, up-selling & objection management
+  - role: Marketing Database & Reporting Intern
+    time: May 2023 - Nov 2023
+    company: Elekta (Healthtech), London, UK
+    details:
+      - text: Created dashboards to monitor campaign metrics, enabling teams to make data-driven decisions and cutting reporting time by 30%
+      - text: Cleaned and updated Salesforce data, improving targeting accuracy and reducing duplicate records by 25%
+      - text: Built automated email campaigns in Salesforce that increased open rates by 10% for target audiences
 
-    - role: English Teacher
-      time: 2016 - 2017
-      company: Academia Innova SL (Madrid)
-      details: 
-        - text: Demonstrated creative & innovative problem-solving skills by creating personalized study plans
-  
+  - role: Librarian
+    time: Sep 2022 - May 2023
+    company: H-ouse at H-FARM (Venice)
+    details:
+      - text: Supervised students in clubs and extra-curricular activities
+
+  - role: Bartender & Social Media Manager
+    time: Jun 2019 - Dec 2020
+    company: Montpeliers Ltd. (Edinburgh)
+    details:
+      - text: Designed & managed social media campaigns, improving engagement through targeted initiatives
+      - text: Expanded communication skills such as negotiation, up-selling & objection management
+
+  - role: English Teacher
+    time: 2016 - 2017
+    company: Academia Innova SL (Madrid)
+    details:
+      - text: Demonstrated creative & innovative problem-solving skills by creating personalized study plans
+
 certifications:
-    title: Certifications
-    assignments:
-      - title: Analyze Data with Python Skill Path (Codacademy)
-        link: "https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
-        tagline: "Data analysis with Jupyter Notebook and Python libraries Pandas, Numpy, Matplotlib and Scipy."
+  title: Certifications
+  assignments:
+    - title: Analyze Data with Python Skill Path (Codacademy)
+      link: "https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
+      tagline: "Data analysis with Jupyter Notebook and Python libraries Pandas, Numpy, Matplotlib and Scipy."
 
-      - title: CAD and Digital Manufacturing Specialization (Coursera)
-        link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
-        tagline: "Online specialization about product innovation and digital manufacturing throguh Autodesk Fusion 360™."
+    - title: CAD and Digital Manufacturing Specialization (Coursera)
+      link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
+      tagline: "Online specialization about product innovation and digital manufacturing throguh Autodesk Fusion 360™."
 
-skills:
-    title: Computer Skills
+    - title: H-FARM Start Up Lab
+      link: "https://miamcgs.github.io/certifications/hfarm_startup.pdf"
+      tagline: "H-FARM Certificate covering startup fundamentals, business model validation, market types, innovation strategy, metrics, and entrepreneurial mindset."
 
-    toolset:
+    - title: H-FARM Project Management for Innovation
+      link: "https://miamcgs.github.io/certifications/hfarm_project_management_for_innovation.pdf"
+      tagline: "H-FARM Certificate on Agile and traditional project management, Agile manifesto, from project to product, backlog/user stories/scrum, ROI and estimations, and Modern Agile."
 
-      - name: Microsoft Office
-        level: 92%
-
-      - name: Adobe CC
-        level: 60%
-
-      - name: Python 
-        level: 50%
-
-      - name: Autodesk Fusion
-        level: 35%
-
-      - name: Wordpress
-        level: 67%
-
-      - name: Google Analytics
-        level: 53%
-
-        
+    - title: H-FARM Economics of Blockchain
+      link: "https://miamcgs.github.io/certifications/hfarm_economics_of_blockchain.pdf"
+      tagline: "H-FARM Certificate about Bitcoin and Ethereum basics, Web 3.0 and DAOs, hands-on exercises, use cases, and careers in crypto."
 
 footer: >
-    Created by Maria McGlade Segovia
+  Created by Maria McGlade Segovia

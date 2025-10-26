@@ -1,46 +1,32 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
-
   <div class="profile-container">
-
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
-    {% endif %}
-
-    {% if sidebar.name %}
+    <img
+      class="avatar"
+      src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}"
+      alt="profile picture"
+    />
+    {% endif %} {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
-    {% endif %}
-
-    {% if sidebar.tagline %}
+    {% endif %} {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
-
-    {% if sidebar.pdf_version_en %}
+    {% endif %} {% if sidebar.pdf_version_en %}
     <div class="box-3">
-        <a class="btn btn-three" href="{{ site.baseurl }}/assets/documents/{{ sidebar.pdf_version_en }}" 
-        download="cv_maria_mcglade_segovia_en.pdf" 
-        style="margin-top: 2rem;">Download English PDF</a>
-    </div>
-    <div class="box-3">
-        <a class="btn btn-three" href="{{ site.baseurl }}/assets/documents/{{ sidebar.pdf_version_it }}" 
-        download="cv_maria_mcglade_segovia_it.pdf" 
-        style="margin-top: 2rem;">Download Italian PDF</a>
+      <a
+        class="btn btn-three"
+        href="{{ site.baseurl }}/assets/documents/{{ sidebar.pdf_version_en }}"
+        download="cv_maria_mcglade_segovia_en.pdf"
+        style="margin-top: 2rem"
+        >Download PDF</a
+      >
     </div>
     {% endif %}
+  </div>
+  <!--//profile-container-->
 
-  </div><!--//profile-container-->
-
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
+  {% include contact.html %} {% if sidebar.education %} {% include
+  education.html %} {% endif %} {% include language.html %} {% include
+  interests.html %} {% if sidebar.about %} {% include about.html %} {% endif %}
+</div>
+<!--//sidebar-wrapper-->

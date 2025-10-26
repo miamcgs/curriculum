@@ -38,7 +38,9 @@
   has_student_experience = false %} {% for experience in experiences %} {% if
   experience.while_studying %} {% assign has_student_experience = true %} {%
   endif %} {% endfor %} {% if has_student_experience %}
-  <h3 class="section-subtitle" style="margin-top: 18px">While Studying</h3>
+  <h2 class="section-title" style="margin-top: 18px; font-size: 90%">
+    While Studying
+  </h2>
   {% for experience in experiences %} {% if experience.while_studying %}
   <div class="item">
     <div class="meta">

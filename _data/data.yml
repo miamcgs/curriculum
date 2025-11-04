@@ -12,7 +12,8 @@ sidebar:
   tagline: Product Marketing Specialist
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  pdf_version_en: "curriculum_maria_english.pdf"
+  pdf_version_en: "curriculum_maria_en.pdf"
+  pdf_version_es: "curriculum_maria_es.pdf"
 
   # Sidebar links
   email: mariamcglade@gmail.com

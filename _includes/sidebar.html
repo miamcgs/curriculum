@@ -18,7 +18,17 @@
         href="{{ site.baseurl }}/assets/documents/{{ sidebar.pdf_version_en }}"
         download="cv_maria_mcglade_segovia_en.pdf"
         style="margin-top: 2rem"
-        >Download PDF</a
+        >Download PDF in English</a
+      >
+    </div>
+    {% endif %} {% if sidebar.pdf_version_es %}
+    <div class="box-3">
+      <a
+        class="btn btn-three"
+        href="{{ site.baseurl }}/assets/documents/{{ sidebar.pdf_version_es }}"
+        download="cv_maria_mcglade_segovia_es.pdf"
+        style="margin-top: 2rem"
+        >Download PDF in Spanish</a
       >
     </div>
     {% endif %}
